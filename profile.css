@@ -46,7 +46,6 @@ main {
   margin-top: 2rem;
   border-radius: 25px;
   background-color: var(--variable-darknavy);
-  /* padding: 1rem 1rem 1rem 1rem; */
 }
 
 .userProfileMainContainer {
@@ -100,8 +99,13 @@ main {
 }
 
 .userProfileCoalitionContainer {
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 1rem auto 1rem auto;
+  padding: 0 1rem 0 1rem;
   display: flex;
+}
+
+.coalitionImage {
+  margin: auto;
 }
 
 .coalitionFlag {
@@ -130,17 +134,21 @@ main {
 }
 
 .userProfileBlackholeContainer {
-  margin: 1rem 1rem 1rem 1rem;
+  margin: auto;
+  display: flex;
+}
+
+.userBlackholeFace {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: auto 1rem auto 0;
+  fill: darkred;
 }
 
 .userBlackhole {
-  color: var(--variable-red);
-}
-
-.temp::before {
-  font-family: 'Font Awesome 5 Free';
-  content: '\e0e5';
-  color: white;
+  color: darkred;
+  margin: auto;
+  font-size: 2rem;
 }
 
 @media only screen and (min-width: 1250px) {

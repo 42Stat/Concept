@@ -1,7 +1,6 @@
 main {
   margin: auto;
-  width: 100%;
-  height: calc(100% - 50px);
+  padding: 0 1rem 0 1rem;
 }
 
 .navContainer {
@@ -10,8 +9,7 @@ main {
   background-color: var(--variable-white);
   display: flex;
   width: 100%;
-  height: 49px;
-  border-bottom: 1px solid black;
+  height: 50px;
 }
 
 .navIconContainer {
@@ -42,19 +40,107 @@ main {
   outline: none;
 }
 
-.userProfileUpperContainer {
+.userProfile {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  border-radius: 25px;
+  background-color: var(--variable-darknavy);
+  /* padding: 1rem 1rem 1rem 1rem; */
+}
+
+.userProfileMainContainer {
+  margin: 1rem 1rem 1rem 1rem;
   display: flex;
 }
 
-.userProfileImageContainer {
+.userProfileImage {
   width: 100px;
   height: 100px;
-  object-fit: scale-down;
+  margin-right: 1rem;
+  border-radius: 25%;
+  overflow: hidden;
+  object-fit: cover;
 }
 
-.userProfileImage {
-  max-width: 100%;
-  max-height: 100%;
+.userDefaultInfoContainer {
+  width: calc(100% - 1rem - 100px);
+}
+
+.userLogin {
+  font-size: 1.2rem;
+  color: var(--variable-white);
+}
+
+.userName {
+  font-size: 0.9rem;
+  color: var(--variable-navy);
+}
+
+.userRankInfo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.userRankInfoComponent {
+}
+
+.userRankInfoKey {
+  color: var(--variable-navy);
+}
+
+.userRankInfoValue {
+  color: var(--variable-red);
+}
+
+.userRankInfoSeperator {
+  align-self: center;
+  margin: 0 0.5rem 0 0.5rem;
+  color: var(--variable-navy);
+}
+
+.userProfileCoalitionContainer {
+  margin: 1rem 1rem 1rem 1rem;
+  display: flex;
+}
+
+.coalitionFlag {
+  margin: 0 1rem 0 1rem;
+  width: 40px;
+  fill: #ffc221;
+}
+
+.coalitionMark {
+  position: absolute;
+  translate: -56px 5px;
+  width: 40px;
+}
+
+.coalitionName {
+  color: #ffc221;
+  font-size: 1.1rem;
+}
+
+.coalitionUserInfoKey {
+  color: var(--variable-navy);
+}
+
+.coalitionUserInfoValue {
+  color: var(--variable-red);
+}
+
+.userProfileBlackholeContainer {
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.userBlackhole {
+  color: var(--variable-red);
+}
+
+.temp::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\e0e5';
+  color: white;
 }
 
 @media only screen and (min-width: 1250px) {

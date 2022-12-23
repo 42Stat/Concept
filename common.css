@@ -4,6 +4,7 @@ html,
 body {
   --variable-white: #f5f5f5;
   --variable-black: #121212;
+  --variable-darknavy: #222831;
   --variable-navy: #30475e;
   --variable-red: #f05454;
   width: 100%;
@@ -13,5 +14,5 @@ body {
   font-family: 'Inter';
   font-weight: 500;
   margin: 0%;
-  background-color: #222831;
+  background-color: var(--variable-black);
 }

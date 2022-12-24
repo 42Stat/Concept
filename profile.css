@@ -1,6 +1,7 @@
 main {
   margin: auto;
   padding: 0 1rem 0 1rem;
+  max-width: 1200px;
 }
 
 .navContainer {
@@ -81,14 +82,11 @@ main {
   flex-wrap: wrap;
 }
 
-.userRankInfoComponent {
-}
-
-.userRankInfoKey {
+.infoKey {
   color: var(--variable-navy);
 }
 
-.userRankInfoValue {
+.infoValue {
   color: var(--variable-red);
 }
 
@@ -122,15 +120,7 @@ main {
 
 .coalitionName {
   color: #ffc221;
-  font-size: 1.1rem;
-}
-
-.coalitionUserInfoKey {
-  color: var(--variable-navy);
-}
-
-.coalitionUserInfoValue {
-  color: var(--variable-red);
+  font-size: 1.2rem;
 }
 
 .userProfileBlackholeContainer {
@@ -151,9 +141,35 @@ main {
   font-size: 2rem;
 }
 
-@media only screen and (min-width: 1250px) {
-  main {
-    margin: auto;
-    width: 1200px;
-  }
+.userDetailContainer {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.userDetailComponent {
+  background-color: var(--variable-darknavy);
+  border-radius: 25px;
+  padding: 1rem 1rem 1rem 1rem;
+  flex-basis: auto;
+  width: auto;
+  height: auto;
+}
+
+.userDetailHeader {
+  font-size: 1.2rem;
+  color: var(--variable-red);
+  border-bottom: 1px solid var(--variable-black);
+}
+
+.userDetailBody {
+  display: grid;
+}
+
+.detailInfoKey {
+  color: var(--variable-navy);
+}
+
+.detailInfoValue {
+  font-size: 1.2rem;
+  color: var(--variable-white);
 }

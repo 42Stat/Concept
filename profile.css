@@ -1,3 +1,7 @@
+body {
+  background-color: var(--variable-darknavy);
+}
+
 main {
   margin: auto;
   padding: 0 1rem 0 1rem;
@@ -47,6 +51,7 @@ main {
   margin-top: 2rem;
   border-radius: 25px;
   background-color: var(--variable-darknavy);
+  font-size: 1rem;
 }
 
 .userProfileMainContainer {
@@ -68,12 +73,11 @@ main {
 }
 
 .userLogin {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: var(--variable-white);
 }
 
 .userName {
-  font-size: 0.9rem;
   color: var(--variable-navy);
 }
 
@@ -120,11 +124,12 @@ main {
 
 .coalitionName {
   color: #ffc221;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .userProfileBlackholeContainer {
-  margin: auto;
+  margin: 1rem auto 1rem auto;
+  padding: 0 1rem 0 1rem;
   display: flex;
 }
 
@@ -143,22 +148,29 @@ main {
 
 .userDetailContainer {
   display: flex;
-  margin-top: 1rem;
+  column-gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .userDetailComponent {
+  flex: 1 1 200px;
   background-color: var(--variable-darknavy);
   border-radius: 25px;
   padding: 1rem 1rem 1rem 1rem;
+  margin: 2rem 0 0 0;
   flex-basis: auto;
   width: auto;
   height: auto;
 }
 
 .userDetailHeader {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--variable-red);
-  border-bottom: 1px solid var(--variable-black);
+}
+
+.userDetailSeperator {
+  margin: 0.5rem 0;
+  border-bottom: solid 1px var(--variable-black);
 }
 
 .userDetailBody {
@@ -167,9 +179,10 @@ main {
 
 .detailInfoKey {
   color: var(--variable-navy);
+  font-size: 1.1rem;
 }
 
 .detailInfoValue {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--variable-white);
 }

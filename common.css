@@ -17,3 +17,22 @@ body {
   margin: 0%;
   background-color: var(--variable-darknavy);
 }
+
+/* none standard */
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--variable-gray);
+  border-radius: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--variable-darknavy);
+}
+
+/*
+  firefox uses different scrollbar attr.
+  default setting is good enough
+*/

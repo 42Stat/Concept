@@ -32,3 +32,7 @@
 - display 42's info at submenus
 
 - chart should have drop-down
+
+- eval cnt chart
+- coal.pt chart
+- rank chart(level coal eval)

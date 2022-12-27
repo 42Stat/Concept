@@ -1,0 +1,261 @@
+main {
+  margin: auto;
+  padding: 0 2rem 2rem 2rem;
+  max-width: 1200px;
+}
+
+.userProfile {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  border-radius: 25px;
+  background-color: var(--variable-darknavy-background);
+}
+
+.userProfileMainContainer {
+  margin: 1rem 1rem 1rem 1rem;
+  display: flex;
+}
+
+.userProfileImage {
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+  border-radius: 25%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.userProfileTabContainer {
+  margin: 3rem 0 3rem 0;
+  border-bottom: 1px solid var(--variable-darknavy-background);
+}
+
+.userProfileTab button {
+  background-color: var(--variable-red);
+}
+
+.userDefaultInfoContainer {
+  width: calc(100% - 1rem - 100px);
+}
+
+.userLogin {
+  font-size: 1.5rem;
+  color: var(--variable-gray);
+}
+
+.userName {
+  color: var(--variable-navy);
+}
+
+.userRankInfo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.infoKey {
+  color: var(--variable-navy);
+}
+
+.infoValue {
+  color: var(--variable-red);
+}
+
+.userRankInfoSeperator {
+  align-self: center;
+  margin: 0 0.5rem 0 0.5rem;
+  color: var(--variable-navy);
+}
+
+.userProfileCoalitionContainer {
+  margin: 1rem auto 1rem auto;
+  padding: 0 1rem 0 1rem;
+  display: flex;
+}
+
+.coalitionImage {
+  margin: 0.5rem auto auto auto;
+}
+
+.coalitionFlag {
+  margin: 0 1rem 0 1rem;
+  width: 40px;
+  fill: #ffc221;
+}
+
+.coalitionMark {
+  position: absolute;
+  translate: -56px 5px;
+  width: 40px;
+}
+
+.coalitionName {
+  color: #ffc221;
+  font-size: 1.5rem;
+}
+
+.userProfileBlackholeContainer {
+  margin: 1rem auto 1rem auto;
+  padding: 0 1rem 0 1rem;
+  display: flex;
+}
+
+.userBlackholeFace {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: auto 1rem auto 0;
+  fill: darkred;
+}
+
+.userBlackhole {
+  color: darkred;
+  margin: auto;
+  font-size: 2rem;
+}
+
+.feedbackListContainer {
+  background-color: var(--variable-darknavy-background);
+  border-radius: 25px;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.subjectFilterContainer {
+  display: flex;
+  justify-content: right;
+}
+
+.subjectFilter {
+  color: var(--variable-gray);
+  margin-right: 0.5rem;
+}
+
+.feedbackListContainer li {
+  list-style-type: none;
+}
+
+.feedbackListContainer ul {
+  margin: 0;
+}
+
+.filterContainer {
+  display: flex;
+  padding: 0 1rem 0 1rem;
+  margin: 0 0 0.3rem 0;
+  flex-wrap: wrap;
+}
+
+.pusher {
+  margin-left: auto;
+}
+
+.evalFilterContainer {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.evalFilter {
+  font-size: 1.2rem;
+  color: var(--variable-red);
+}
+
+.evalFilterN {
+  font-size: 1.2rem;
+  color: var(--variable-navy);
+}
+
+.evalFilterSeperator {
+  width: 1rem;
+}
+
+.seperator {
+  border-bottom: solid var(--variable-darknavy) 1px;
+}
+
+.flagFilter {
+  font-size: 1.2rem;
+  color: var(--variable-navy);
+  /* color: var(--variable-red); */
+}
+
+.flagFilterBright {
+  font-size: 1.2rem;
+  color: var(--variable-gray);
+}
+
+.flagNotiOn {
+  display: none;
+}
+
+.flagNotiOff {
+  margin-left: 0.5rem;
+  margin-bottom: 0.1rem;
+  font-size: 0.9rem;
+  padding: 0 0.2rem 0 0.2rem;
+  align-self: flex-end;
+  color: var(--variable-gray);
+  background-color: var(--variable-darknavy-background-bright);
+  border-radius: 0.2rem;
+}
+
+.feedbackList {
+  padding: 0;
+  margin: 0;
+}
+
+.feedbackHeader {
+  display: flex;
+  color: var(--variable-gray);
+}
+
+.subjectFlag {
+  background-color: var(--variable-navy);
+  border-radius: 0.2rem;
+  margin-left: 0.3rem;
+  padding: 0 0.2rem 0 0.2rem;
+}
+
+.subjectFlagN {
+  background-color: var(--variable-red);
+  border-radius: 0.2rem;
+  margin-left: 0.3rem;
+  padding: 0 0.2rem 0 0.2rem;
+}
+
+.scaleTeamInfo {
+  color: var(--variable-navy);
+}
+
+.scaleTeamInfo b {
+  font-weight: 700;
+  color: var(--variable-gray);
+}
+
+.correctorMark {
+  color: var(--variable-gray);
+  background-color: var(--variable-navy);
+  border-radius: 0.2rem;
+  padding: 0 0.2rem 0 0.2rem;
+}
+
+.correctedMark {
+  color: var(--variable-gray);
+  background-color: var(--variable-navy);
+  border-radius: 0.2rem;
+  padding: 0 0.2rem 0 0.2rem;
+}
+
+.feedbackContent {
+  color: var(--variable-gray);
+}
+
+.feedbackContainer {
+  background-color: var(--variable-darknavy-background);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.feedbackContainerBright {
+  background-color: var(--variable-darknavy-background-bright);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

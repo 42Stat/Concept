@@ -1,0 +1,54 @@
+.navContainer {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1rem 1rem 0 1rem;
+  height: 50px;
+}
+
+.navIconContainer {
+  display: flex;
+  width: 100px;
+}
+
+.navIcon {
+  margin: auto;
+  padding: 0 0.7rem 0 0.7rem;
+  width: 35px;
+  height: 35px;
+  fill: var(--variable-gray);
+}
+
+.nav42Icon {
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  margin-right: 0.5rem;
+  fill: var(--variable-gray);
+}
+
+.navDoorIcon {
+  margin: auto;
+  width: 35px;
+  height: 35px;
+  padding: 0 1rem 0 1rem;
+  fill: var(--variable-gray);
+}
+
+.navSearchFormContainer {
+  margin: 0 auto;
+  width: calc(100% - 210px);
+  height: 100%;
+}
+
+.navSearchFormInput {
+  background-color: var(--variable-darknavy);
+  color: var(--variable-gray);
+  width: 100%;
+  height: calc(100% - 2px);
+  border: none;
+}
+
+.navSearchFormInput:focus {
+  outline: none;
+}

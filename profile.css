@@ -4,44 +4,6 @@ main {
   max-width: 1200px;
 }
 
-.navContainer {
-  display: flex;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 1rem 1rem 0 1rem;
-  height: 50px;
-}
-
-.navIconContainer {
-  display: flex;
-  width: 100px;
-}
-
-.navIcon {
-  margin: auto;
-  width: 35px;
-  height: 35px;
-  fill: var(--variable-gray);
-}
-
-.navSearchFormContainer {
-  margin: 0 auto;
-  width: calc(100% - 210px);
-  height: 100%;
-}
-
-.navSearchFormInput {
-  background-color: var(--variable-darknavy);
-  color: var(--variable-gray);
-  width: 100%;
-  height: calc(100% - 2px);
-  border: none;
-}
-
-.navSearchFormInput:focus {
-  outline: none;
-}
-
 .userProfile {
   display: flex;
   flex-wrap: wrap;
@@ -79,10 +41,11 @@ main {
 
 .userLogin {
   font-size: 1.5rem;
-  color: var(--variable-white);
+  color: var(--variable-gray);
 }
 
 .userName {
+  margin-top: 0.1rem;
   color: var(--variable-navy);
 }
 
@@ -112,7 +75,7 @@ main {
 }
 
 .coalitionImage {
-  margin: auto;
+  margin: 0.5rem auto auto auto;
 }
 
 .coalitionFlag {
@@ -169,6 +132,18 @@ main {
   height: auto;
 }
 
+.userDetailComponentHover {
+  background-color: var(--variable-darknavy-background-bright);
+  border-radius: 25px;
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 2rem 0 0 0;
+  min-width: 250px;
+  flex-wrap: wrap;
+  flex: 1;
+  width: auto;
+  height: auto;
+}
+
 .userDetailHeader {
   font-size: 1.3rem;
   color: var(--variable-red);
@@ -184,11 +159,24 @@ main {
 }
 
 .detailInfoKey {
+  margin-top: 1rem;
   color: var(--variable-navy);
   font-size: 1.1rem;
 }
 
 .detailInfoValue {
   font-size: 1.3rem;
-  color: var(--variable-white);
+  color: var(--variable-gray);
+}
+
+.easter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  /* display: none; */
+}
+
+.nono {
+  display: none;
 }

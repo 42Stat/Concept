@@ -1,0 +1,11 @@
+.sampleText {
+  color: var(--variable-red);
+  font-size: 5rem;
+  text-align: center;
+}
+
+.sampleText2 {
+  color: var(--variable-red);
+  font-size: 2rem;
+  text-align: center;
+}

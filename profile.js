@@ -24,19 +24,13 @@ new Chart(ctx, {
 const componenets = document.querySelectorAll('.userDetailComponent');
 
 componenets.forEach((curr) => {
-  // curr.addEventListener('mouseenter', () => {
-  //   curr.setAttribute('class', 'userDetailComponentHover');
-  // });
-  // curr.addEventListener('mouseleave', () => {
-  //   curr.setAttribute('class', 'userDetailComponent');
-  // });
+  curr.addEventListener('mouseenter', () => {
+    curr.setAttribute('class', 'userDetailComponentHover');
+  });
+  curr.addEventListener('mouseleave', () => {
+    curr.setAttribute('class', 'userDetailComponent');
+  });
   curr.addEventListener('click', () => {
     curr.setAttribute('class', 'userDetailComponentHover');
   });
-});
-
-const parrot = document.querySelector('.easter');
-
-parrot.addEventListener('click', () => {
-  parrot.setAttribute('class', 'nono');
 });
